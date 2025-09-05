@@ -1,0 +1,59 @@
+{
+  "models_compared": [
+    "Baseline_CNN_LSTM",
+    "Complex_Proposed"
+  ],
+  "tolerance_delta": 0.01,
+  "evaluation_timestamp": "2025-09-04T06:20:29.652129",
+  "macro_comparison": {
+    "OPR": {
+      "baseline": 0.37862645227348707,
+      "complex": 0.32563539577064526,
+      "improvement": 0.052991056502841805,
+      "relative_change_pct": -13.995603367026677
+    },
+    "UPR": {
+      "baseline": 0.41871640964560347,
+      "complex": 0.4240976053159479,
+      "improvement": -0.005381195670344452,
+      "relative_change_pct": 1.2851647431011914
+    },
+    "CR": {
+      "baseline": 0.20265713808090935,
+      "complex": 0.2502669989134069,
+      "improvement": 0.047609860832497575,
+      "relative_change_pct": 23.492812186802762
+    },
+    "SB_abs": {
+      "baseline": 0.040089957372116354,
+      "complex": 0.09846220954530256,
+      "improvement": -0.05837225217318621
+    }
+  },
+  "micro_comparison": {
+    "OPR": {
+      "baseline": 0.3786264522734871,
+      "complex": 0.32563539577064526,
+      "improvement": 0.05299105650284186,
+      "relative_change_pct": -13.995603367026687
+    },
+    "UPR": {
+      "baseline": 0.41871640964560347,
+      "complex": 0.42409760531594787,
+      "improvement": -0.005381195670344396,
+      "relative_change_pct": 1.2851647431011781
+    },
+    "CR": {
+      "baseline": 0.2026571380809094,
+      "complex": 0.25026699891340687,
+      "improvement": 0.047609860832497464,
+      "relative_change_pct": 23.492812186802702
+    },
+    "SB_abs": {
+      "baseline": 0.04008995737211635,
+      "complex": 0.0984622095453026,
+      "improvement": -0.058372252173186256
+    }
+  },
+  "overall_assessment": "MODERATE_IMPROVEMENT"
+}

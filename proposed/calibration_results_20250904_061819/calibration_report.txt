@@ -1,0 +1,38 @@
+TRAFFIC MODEL CALIBRATION EVALUATION REPORT
+============================================================
+Evaluation Date: 2025-09-04 06:20:29
+Tolerance Delta: 0.01
+
+MODELS EVALUATED:
+  1. Baseline_CNN_LSTM
+  2. Complex_Proposed
+
+MACRO-AVERAGED CALIBRATION METRICS:
+----------------------------------------
+Metric       Baseline     Complex      Improvement 
+------------------------------------------------
+OPR          0.3786       0.3256            +0.0530
+UPR          0.4187       0.4241            -0.0054
+CR           0.2027       0.2503            +0.0476
+|SB|         0.0401       0.0985            -0.0584
+
+MICRO-AVERAGED CALIBRATION METRICS:
+----------------------------------------
+Metric       Baseline     Complex      Improvement 
+------------------------------------------------
+OPR          0.3786       0.3256            +0.0530
+UPR          0.4187       0.4241            -0.0054
+CR           0.2027       0.2503            +0.0476
+|SB|         0.0401       0.0985            -0.0584
+
+OVERALL ASSESSMENT:
+--------------------
+✅ Complex model shows MODERATE calibration improvement
+
+INTERPRETATION:
+- OPR: Over-Prediction Rate (lower is better)
+- UPR: Under-Prediction Rate (lower is better)
+- CR: Calibration Rate (higher is better)
+- |SB|: Absolute Sign Balance (lower is better)
+- Improvement = Baseline - Complex (for OPR/UPR/|SB|)
+- Improvement = Complex - Baseline (for CR)

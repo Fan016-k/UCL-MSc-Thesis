@@ -1,0 +1,8 @@
+{
+    "validation_performance": {
+        "mae": 0.013691079802811146,
+        "rmse": 0.019204579293727875,
+        "r2": 0.9916604161262512,
+        "data_type": "normalized"
+    }
+}
